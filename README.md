@@ -1,4 +1,4 @@
-VBA_Digital_Rain
+VBA Digital Rain
 ================
 
 A pure VBA implementation of the Matrix's Digital Rain effect
