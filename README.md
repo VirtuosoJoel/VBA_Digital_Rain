@@ -65,7 +65,7 @@ Sub Matrix()
   Dim row_count As Long, col_count As Long, i As Long
   
   ' Set the StatusBar so the user knows how to quit
-  Application.staturbar = "Press ESC or Ctrl+Break to stop the macro."
+  Application.StatusBar = "Press ESC or Ctrl+Break to stop the macro."
   
   Application.ScreenUpdating = False
   
