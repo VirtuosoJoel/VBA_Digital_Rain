@@ -3,7 +3,23 @@ VBA_Digital_Rain
 
 A pure VBA implementation of the Matrix's Digital Rain effect
 
-* Workbook Code
+How To Use
+----------
+
+1. Enable Macros if you haven't already (Google "Excel enable macros" if you don't know how, I'll wait here)
+1. Create a new Excel Workbook
+1. Go into the VBA Editor (Alt+F11)
+1. Double click on the Workbook Object in the Object Explorer (usually on the left)
+1. Paste the "Workbook Code" below into the Code Window
+1. Right Click on the Workbook in Object Editor
+1. Select "Insert" -> "Module"
+1. Paste the "Module Code" into the new Code Window
+1. Save the Workbook somewhere you can find it (save as macro-enabled .xlsm or .xls)
+1. Close Excel
+1. Open the new Workbook, and you should be prompted to start the Macro
+
+Workbook Code
+-------------
  
 ```vbnet
 
@@ -35,7 +51,9 @@ End Sub
 
 ```
 
-* Module Code
+
+Module Code
+-----------
 
 ```vbnet
 
@@ -67,8 +85,8 @@ Sub Matrix()
   Configure_Conditional_Formats
   
   ' Either loop a set amount or infinitely
-  'Do While True
-  For i = 1 To 100
+  Do While True
+  'For i = 1 To 100
     
     ' Hide the work going on behind the scenes
     Application.ScreenUpdating = False
@@ -85,8 +103,8 @@ Sub Matrix()
     Application.ScreenUpdating = True
     DoEvents
     
-  'Loop
-  Next i
+  Loop
+  'Next i
 
 End Sub
 
