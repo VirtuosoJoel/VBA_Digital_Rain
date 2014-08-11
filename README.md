@@ -8,6 +8,7 @@ How To Use
 
 1. Enable Macros if you haven't already (Google "Excel enable macros" if you don't know how, I'll wait here)
 1. Create a new Excel Workbook
+1. Rename "Sheet1" as "Matrix"
 1. Go into the VBA Editor (Alt+F11)
 1. Double click on the Workbook Object in the Object Explorer (usually on the left)
 1. Paste the "Workbook Code" below into the Code Window
