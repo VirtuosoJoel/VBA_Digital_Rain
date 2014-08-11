@@ -3,6 +3,11 @@ VBA Digital Rain
 
 A pure VBA implementation of the Matrix's Digital Rain effect
 
+Screenshot (Cropped)
+----------
+
+![Screenshot](https://raw.githubusercontent.com/VirtuosoJoel/VBA_Digital_Rain/master/Matrix.jpg)
+
 How To Use
 ----------
 
@@ -242,6 +247,5 @@ End Function
 ToDo
 ----
 
-* Add Screenshots
 * Add Module as downloadable file?
 * Add entire workbook? (have to check embedded information first)
